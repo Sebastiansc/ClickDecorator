@@ -1,5 +1,5 @@
-# Searchbar
-simple searchbar component 
+# ClickDecorator
+Plug and play click decorator React component
 
 ### Running the app
 * Run `npm i`
