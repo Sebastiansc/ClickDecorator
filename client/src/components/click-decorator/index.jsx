@@ -1,10 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
-// import { usePrevious } from "../../hooks/index.js";
-
-import "./click-decorator.css"
-
+import "./click-decorator.css"g
 
 const mouseDownHandler = (isActive, { setActive, setCoordinates, setMouseUp }) => {
   const onMouseDown = e => {
