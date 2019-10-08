@@ -1,0 +1,45 @@
+@keyframes woosh {
+  from {
+    width: 0.5em;
+    height: 0.5em;
+    margin: -0.25em;
+  }
+  to {
+    width: 3em;
+    height: 3em;
+    margin: -1.50em;
+  }
+}
+
+@keyframes wooshOut {
+  0% {
+    width: 3em;
+    height: 3em;
+    margin: -1.50em;
+  }
+  100% {
+    width: 4em;
+    height: 4em;
+    margin: -2em;
+    opacity: 0;
+  }
+  /* 100% {
+    opacity: 0;
+  } */
+}
+
+.DecoratorCircle {
+  animation: woosh;
+  animation-duration: 350ms;
+  animation-fill-mode: forwards;
+  position: fixed;
+  border: 1px solid #607c9e;
+  border-radius: 50%;
+  background: rgba(74, 120, 155, 0.28)
+}
+
+.DecoratorCircle--out {
+  animation: wooshOut;
+  animation-duration: 350ms;
+  animation-fill-mode: forwards;
+}

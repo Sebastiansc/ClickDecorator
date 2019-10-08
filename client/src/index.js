@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import SearchBar from './components/search-bar/index.jsx';
+import ClickDecorator from "./components/click-decorator/index.jsx";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div className="main">
-    <SearchBar />
+    <ClickDecorator/>
+    <img src="https://live.staticflickr.com/4486/38054858802_e3ab654ce1_b.jpg" />
   </div>,
   document.getElementById('root')
 );
